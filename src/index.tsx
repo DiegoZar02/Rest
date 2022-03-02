@@ -1,7 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import {
+    HashRouter as Router,
+    Routes,
+    Route,
+    Navigate,
+} from "react-router-dom";
 import "./scss/index.scss";
 import Home from "./routes/Home";
 import Menu from "./routes/Menu";
@@ -9,7 +14,7 @@ import NewDish from "./routes/NewDish";
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <Router>
             <Routes>
                 <Route path="/" element={<App />}>
                     <Route index element={<Home />} />
@@ -18,7 +23,7 @@ ReactDOM.render(
                     <Route path="/admin/add-dish" element={<NewDish />} />
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </Router>
     </React.StrictMode>,
     document.getElementById("root")
 );
