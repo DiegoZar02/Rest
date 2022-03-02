@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Lorem, ipsum dolor.",
+        "price": 500,
+        "available": 20
+    },
+    {
+        "id": 20,
+        "name": "Lorem ipsum dolor sit amet.",
+        "price": 20,
+        "available": 200
+    },
+    {
+        "id": 300,
+        "name": "Lorem, ipsum dolor.",
+        "price": 1500,
+        "available": 2000
+    },
+    {
+        "id": 6000,
+        "name": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, nostrum.",
+        "price": 1500000,
+        "available": 2
+    }
+]
